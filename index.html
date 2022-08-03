@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <!-- ------------add icon----------- -->
+    <div class="container1">
+      <div class="box1">
+        <p class="tasklist"><b>Tasks </b>List</p>
+      </div>
+      <div class="box2">
+        <div id="plusicon1"><i class="fas fa-plus-circle"></i></div>
+        <p class="additem" id="additem">Add item</p>
+      </div>
+    </div>
+    <!-- ----------------blurbox-------------- -->
+    <div class="blurbox"></div>
+    <!-- -----------back button---------- -->
+    <div class="backbutton">
+      <i class="fas fa-arrow-left"></i>
+    </div>
+    <!-- --------trips cards------------ -->
+    <div class="container2">
+      <p class="noitem" id="noitem">NO Items in the todo list</p>
+
+      <div class="box3" id="box3">
+        
+          <!-- <div class="trips">
+          <p class="tripplace">trip to bhutan</p>
+          <hr />
+          <div id="plusicon2"><i class="fas fa-plus-circle"></i></div>
+          <div id="delete"><i class="far fa-trash-alt"></i></div>
+        </div> -->
+
+        
+      </div>
+    </div>
+    <!-- -------------popup add list-------------->
+    <div class="container3">
+      <div class="box4">
+        <label class="addlist" for="addlist">Add New List</label>
+        <br />
+        <input type="text" name="addlist" id="input1" />
+        <br />
+        <button id="add1">Add</button>
+        <button id="close1">Close</button>
+      </div>
+    </div>
+    <!-- -------------popup add list-------------->
+    <div class="container4">
+      <div class="box5">
+        <label class="addlist1" for="addlist1">Add New Item</label>
+        <br />
+        <input type="text" name="addlist" id="input2" />
+        <br />
+        <button id="add2">Add</button>
+        <button id="close2">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
